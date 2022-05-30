@@ -1,0 +1,200 @@
+{
+    "status": "ok",
+    "totalResults": 15,
+    "articles": [
+        {"source":{
+                "id": "rt",
+                "name": "RT"
+             },
+         "author": "RT Arabic",
+         "title": "ألمانيا تطرح واحدة من أجمل السيارات العائلية وأكثرها تطورا - روسيا اليوم",
+         "description": "قررت أوبل الألمانية إحداث نقلة نوعية في عالم السيارات العائلية من خلال Astra الجديدة التي صممت لتكون من بين أجمل المركبات وأكترها تطورا لهذه السنة.",
+         "url": "https://arabic.rt.com/car/1299935-%D8%A3%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A7-%D8%AA%D8%B7%D8%B1%D8%AD-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9-%D9%85%D9%86-%D8%A3%D8%AC%D9%85%D9%84-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D8%A6%D9%84%D9%8A%D8%A9-%D9%88%D8%A3%D9%83%D8%AB%D8%B1%D9%87%D8%A7-%D8%AA%D8%B7%D9%88%D8%B1%D8%A7/",
+         "urlToImage": "https://cdni.rt.com/media/pics/2021.12/original/61a7819242360404114efda4.png",
+         "publishedAt": "2021-12-02T07:00:00Z",
+         "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fal3arda.com"
+            },
+            "author": null,
+            "title": "\"يخص عملاء البنوك\".. قرار عاجل بخصوص رسوم السحب من ماكينات الصراف الآلي بعد أيام - كورة في العارضة - في العارضة",
+            "description": "كشف مصادر بنكية بإن البنك المركزي المصري سوف يصدر خلال الأيام المقبلة قرار جديد بخصوص رسوم السحب والاستعلام من ماكينات الصراف الآلي atm، والتي ظلت مجانية طوال",
+            "url": "https://kora.fal3arda.com/860780/%d9%8a%d8%ae%d8%b5-%d8%b9%d9%85%d9%84%d8%a7%d8%a1-%d8%a7%d9%84%d8%a8%d9%86%d9%88%d9%83-%d9%82%d8%b1%d8%a7%d8%b1-%d8%b9%d8%a7%d8%ac%d9%84-%d8%a8%d8%ae%d8%b5%d9%88%d8%b5-%d8%b1%d8%b3%d9%88%d9%85/",
+            "urlToImage": "https://cdn.fal3arda.com/wp-content/uploads/2021/12/ماكينات-الصراف-الآلي-في-مصر-1638420603.jpg",
+            "publishedAt": "2021-12-02T04:50:56Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Youm7.com"
+            },
+            "author": null,
+            "title": "بعد توليه منصب رئيس تويتر.. كم يبلغ قيمة راتب باراج أجراوال؟ - اليوم السابع",
+            "description": "تعد شبكة تويتر أحدث منصة تحصل على رئيس تنفيذى مولود فى الهند، حيث قامت الشركة مؤخرا بترقية باراج أجراوال، كرئيس للشركة ومدير تقني لها ليحل محل الرئيس التنفيذي جاك دورسى.",
+            "url": "https://www.youm7.com/story/2021/12/2/بعد-توليه-منصب-رئيس-تويتر-كم-يبلغ-قيمة-راتب-باراج/5560368",
+            "urlToImage": "https://img.youm7.com/large/202111300340464046.jpg",
+            "publishedAt": "2021-12-01T22:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Almalnews.com"
+            },
+            "author": null,
+            "title": "أسعار حديد عز اليوم بعد أنباء شرائها حصة أبوهشيمة في «حديد المصريين» - جريدة المال",
+            "description": "استقرت أسعار حديد عز اليوم بالأسواق المصرية بعد أنباء عن شراء حصة أبوهشيمة في حديد المصريين ليسجل طن حديد عز نحو 15 ألف جنيه تسليم ارض مصنع",
+            "url": "https://almalnews.com/%d8%a3%d8%b3%d8%b9%d8%a7%d8%b1-%d8%ad%d8%af%d9%8a%d8%af-%d8%b9%d8%b2-%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a8%d8%b9%d8%af-%d8%a3%d9%86%d8%a8%d8%a7%d8%a1-%d8%b4%d8%b1%d8%a7%d8%a6%d9%87%d8%a7-%d8%ad%d8%b5/",
+            "urlToImage": "https://almalnews.com/wp-content/uploads/2021/10/الحديد-اليوم.jpg",
+            "publishedAt": "2021-12-01T16:17:03Z",
+            "content": "1-12-2021 .\r\n 15 .\r\n 18% 1.5 \r\n .\r\n1-12-2021\r\n   15 .\r\n14900 \r\n14900 .\r\n15 .\r\n15300 .\r\n15300 .\r\n14900 ."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Saidaonline.com"
+            },
+            "author": null,
+            "title": "كم بلغت تسعيرة المولدات عن شهر تشرين الثاني؟ - صيدا أون لاين",
+            "description": "أعلنت وزارة الطاقة والمياه في بيان صدر عن مكتبها الإعلامي أن السعر العادل لتعرفات المولدات الكهربائية الخاصة…",
+            "url": "https://saidaonline.com/new/ar/news/details/news-99039",
+            "urlToImage": "https://saidaonline.com/new/uploads/news/1200x630/21/12/443043_moteur.jpg",
+            "publishedAt": "2021-12-01T15:34:40Z",
+            "content": ":6.502 .. .\r\n- :\r\n- 5 : 30.000 .. + x 6.502 .. .\r\n- 10 : 80.000 .. + x 6.502 .. .\r\n7.152 .. .\r\n- :\r\n- 5 : 30000 .. () + x 7.152 .. /.\r\n- 10 : 80000 .. () + x 7.152 .. /.\r\n* 50.000 .. 5 .\r\n(20 ) 314.3… [+60 chars]"
+        },
+        {
+            "source": {
+                "id": "rt",
+                "name": "RT"
+            },
+            "author": "RT Arabic",
+            "title": "إيلون ماسك: \"سبيس إكس\" مهددة بالإفلاس لعجزها عن تسريع إنتاج المحركات الفضائية - روسيا اليوم",
+            "description": "يعتبر رئيس شركة \"سبيس إكس\" الأمريكية، إيلون ماسك  أن شركته معرّضة للإفلاس في حال لم تستطع  تسريع إنتاج محركات \"رابتور\" التي سيستخدمها  صاروخ Super Heavy فائق الثقل.",
+            "url": "https://arabic.rt.com/space/1299771-%D8%A5%D9%8A%D9%84%D9%88%D9%86-%D9%85%D8%A7%D8%B3%D9%83-%D8%B3%D8%A8%D9%8A%D8%B3-%D8%A5%D9%83%D8%B3-%D9%85%D9%87%D8%AF%D8%AF%D8%A9-%D8%A8%D8%A7%D9%84%D8%A5%D9%81%D9%84%D8%A7%D8%B3-%D9%84%D8%B9%D8%AC%D8%B2%D9%87%D8%A7-%D8%B9%D9%86-%D8%AA%D8%B3%D8%B1%D9%8A%D8%B9-%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D8%B6%D8%A7%D8%A6%D9%8A%D8%A9/",
+            "urlToImage": "https://cdni.rt.com/media/pics/2021.12/original/61a748964c59b7300745e1c5.jpg",
+            "publishedAt": "2021-12-01T15:30:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Investing.com"
+            },
+            "author": "Investing.com",
+            "title": "عاجل: بيانات جديدة تضرب الذهب بواسطة Investing.com - السعودية Investing.com",
+            "description": "الذهب يرتفع رغم البيانات..ومقاومة عنيفة عند 1800 دولار",
+            "url": "https://sa.investing.com/news/commodities-news/article-2215840",
+            "urlToImage": "https://i-invdn-com.investing.com/news/LYNXNPEB730HT_L.jpg",
+            "publishedAt": "2021-12-01T13:19:00Z",
+            "content": ":Fusion Media would like to remind you that the data contained in this website is not necessarily real-time nor accurate. All CFDs (stocks, indexes, futures) and Forex prices are not provided by exch… [+689 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Youm7.com"
+            },
+            "author": null,
+            "title": "أسعار الذهب اليوم ترتفع جنيهين.. وعيار 21 يسجل 785 جنيها - اليوم السابع",
+            "description": "سجلت أسعار الذهب في مصر اليوم الأربعاء تحرك محدود بقيمة جنيهين فقط خلال التداول على الذهب فى التعاملات الصباحية، وذلك بعد أن سجلت الأسعار انخفاض ملحوظ مساء أمس بحوالى 6 جنيهات.",
+            "url": "https://www.youm7.com/story/2021/12/1/أسعار-الذهب-اليوم-ترتفع-جنيهين-وعيار-21-يسجل-785-جنيها/5561178",
+            "urlToImage": "https://img.youm7.com/large/202105090214131413.jpg",
+            "publishedAt": "2021-12-01T11:30:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "14 ليرة تركية لكل دولار.. هبوط جديد لأكثر من 46% هذا العام - AlJazeera Channel قناة الجزيرة",
+            "description": "هوت العملة التركية إلى أدنى مستوى لها على الإطلاق عند أربع عشرة ليرة مقابل الدولار. تزامن ذلك مع تصريحات للرئيس التركي رجب طيب أردوغان جدد فيها دفاعه عن نموذ...",
+            "url": "https://www.youtube.com/watch?v=34NM_FpFgK8",
+            "urlToImage": "https://i.ytimg.com/vi/34NM_FpFgK8/maxresdefault.jpg",
+            "publishedAt": "2021-12-01T10:30:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Youm7.com"
+            },
+            "author": null,
+            "title": "سعر اليورو اليوم الأربعاء 1-12-2021 - اليوم السابع",
+            "description": "تباين سعر اليورو اليوم الأربعاء 1-12-2021، أمام الجنيه المصرى بالبنوك العاملة فى مصر، مسجلًا فى البنك الأهلى المصرى وبنك مصر سعر 17.67 جنيه للشراء، و 17.87 للبيع.",
+            "url": "https://www.youm7.com/story/2021/12/1/سعر-اليورو-اليوم-الأربعاء-1-12-2021/5561023",
+            "urlToImage": "https://img.youm7.com/large/202010010130223022.jpg",
+            "publishedAt": "2021-12-01T10:06:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Skynewsarabia.com"
+            },
+            "author": "سكاي نيوز عربية",
+            "title": "\"زيادة كبيرة\" في احتياطيات الإمارات من النفط والغاز - سكاي نيوز عربية",
+            "description": "شهد اجتماع مجلس إدارة شركة بترول أبوظبي الوطنية \"أدنوك\"، الأربعاء، الإعلان عن زيادة كبيرة في احتياطيات الإمارات من النفط والغاز الطبيعي، تشمل 4 مليارات برميل نفط و16 تريليون قدم مكعبة قياسية من الغاز، حسبما أفادت وكالة أنباء الإمارات (وام).",
+            "url": "https://www.skynewsarabia.com/business/1483546-%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D8%B7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%95%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%88%D8%A7%D9%84%D8%BA%D8%A7%D8%B2",
+            "urlToImage": "https://www.skynewsarabia.com/images/v1/2021/09/22/1465341/1200/630/1-1465341.jpg",
+            "publishedAt": "2021-12-01T09:59:06Z",
+            "content": "111 289 .\r\n \"\" 466 (127 ) (2022-2026) .\r\n \"\" 160 (43.6 ) 2022 2026 \" \" .\r\n\"\" 105 (28.6 ) 3 2018.\r\n \"\" .\r\n \"\" 100 \"\" .\r\n \"\" 6 12 .\r\n \"\" 3 \"\" .\r\n \"\" .\r\n \" \" ."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Alarabiya.net"
+            },
+            "author": "العربية",
+            "title": "منظمة التعاون الاقتصادي تخفض توقعات النمو في العالم بسبب أوميكرون - العربية",
+            "description": "قالت منظمة التعاون الاقتصادي والتنمية، اليوم الأربعاء، في أحدث توقعاتها، إن متغير فيروس كورونا أوميكرون يهدد بتكثيف الاختلالات التي تؤدي إلى تباطؤ النمو وز",
+            "url": "https://www.alarabiya.net/aswaq/economy/2021/12/01/%D9%85%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A-%D8%AA%D8%AE%D9%81%D8%B6-%D8%AA%D9%88%D9%82%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D9%85%D9%88-%D9%81%D9%8A-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D8%A8%D8%B3%D8%A8%D8%A8-%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7",
+            "urlToImage": "https://vid.alarabiya.net/images/2020/07/13/da134ea4-3ce7-488e-9c05-90a6d80c2873/da134ea4-3ce7-488e-9c05-90a6d80c2873_16x9_600x338.jpg",
+            "publishedAt": "2021-12-01T09:33:00Z",
+            "content": ".\r\n \"\" .\r\n \" \" \" \".\r\n\" () . .\r\n .\r\n 2021 .\r\n \" \".\r\n 5.6% 6%.\r\n 0.7 1.8% 0.4 8.1% 0.1 5.2%.\r\n 4% .\r\n (OECD) 1.5% 0.5% .\r\n .\r\n - .\r\n . .\r\n \" \"."
+        },
+        {
+            "source": {
+                "id": "rt",
+                "name": "RT"
+            },
+            "author": "RT Arabic",
+            "title": "النفط يصعد قبيل اجتماع \"أوبك\" - روسيا اليوم",
+            "description": "ارتفعت أسعار النفط، اليوم الأربعاء، معوضة بعض خسائر الجلسة السابقة، إذ يستعد كبار المنتجين لمناقشة كيفية التفاعل مع التهديد الذي يواجهه الطلب على الوقود بسبب المتحور \"أوميكرون\".",
+            "url": "https://arabic.rt.com/business/1299777-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%8A%D8%B5%D8%B9%D8%AF-%D9%82%D8%A8%D9%8A%D9%84-%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D9%84%D9%80%D8%A3%D9%88%D8%A8%D9%83/",
+            "urlToImage": "https://cdni.rt.com/media/pics/2021.12/original/61a7159b4c59b728c70cb0e9.JPG",
+            "publishedAt": "2021-12-01T07:09:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "rt",
+                "name": "RT"
+            },
+            "author": "RT Arabic",
+            "title": "سكودا تكشف عن أحدث رباعية دفع شبابية لديها - روسيا اليوم",
+            "description": "كشفت سكودا عن سيارة Karoq الجديدة التي صممت لاستقطاب محبي المركبات الشبابية الرباعية الدفع.",
+            "url": "https://arabic.rt.com/car/1299597-%D8%B3%D9%83%D9%88%D8%AF%D8%A7-%D8%AA%D9%83%D8%B4%D9%81-%D8%B9%D9%86-%D8%A3%D8%AD%D8%AF%D8%AB-%D8%B1%D8%A8%D8%A7%D8%B9%D9%8A%D8%A9-%D8%AF%D9%81%D8%B9-%D8%B4%D8%A8%D8%A7%D8%A8%D9%8A%D8%A9-%D9%84%D8%AF%D9%8A%D9%87%D8%A7/",
+            "urlToImage": "https://cdni.rt.com/media/pics/2021.11/original/61a634004c59b72c8d2e7df5.jpg",
+            "publishedAt": "2021-12-01T07:00:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "rt",
+                "name": "RT"
+            },
+            "author": "RT Arabic",
+            "title": "\"الخطوط القطرية\": عيوب الطلاء في طائرات \"إيرباص\" مسألة خطيرة - روسيا اليوم",
+            "description": "قال أكبر الباكر، الرئيس التنفيذي لـ\"الخطوط الجوية القطرية\"، اليوم الثلاثاء، إنه يجب على شركة \"إيرباص\" أن تعترف بمشكلة عيوب الطلاء التي تعد \"مسألة خطيرة\".",
+            "url": "https://arabic.rt.com/middle_east/1299630-%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7-%D8%A7%D9%84%D9%82%D8%B7%D8%B1%D9%8A%D8%A9-%D8%B9%D9%8A%D9%88%D8%A8-%D8%A7%D9%84%D8%B7%D9%84%D8%A7%D8%A1-%D9%81%D9%8A-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA-%D8%A5%D9%8A%D8%B1%D8%A8%D8%A7%D8%B5-%D9%85%D8%B3%D8%A3%D9%84%D8%A9-%D8%AE%D8%B7%D9%8A%D8%B1%D8%A9/",
+            "urlToImage": "https://cdni.rt.com/media/pics/2021.11/original/61a6490c4236046ca13405b4.JPG",
+            "publishedAt": "2021-11-30T16:22:00Z",
+            "content": null
+        }
+    ]
+}

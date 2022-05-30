@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "144937179889",
+    "project_id": "first-ptoject-c0cec",
+    "storage_bucket": "first-ptoject-c0cec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144937179889:android:d2451af9e141e792a8a750",
+        "android_client_info": {
+          "package_name": "com.example.fristapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144937179889-bleufq3hchdhu5jlmfnbs6v6qm3tppgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fristapp",
+            "certificate_hash": "15b0f689d637e7ad3626e2de3fe7d39d340ba7ec"
+          }
+        },
+        {
+          "client_id": "144937179889-4ao4ja171vn4golvmbnh0gav0b6u9qf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUJtxZ0YmIKq4cZQSg46r2hevNcZC-YyU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144937179889-4ao4ja171vn4golvmbnh0gav0b6u9qf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
