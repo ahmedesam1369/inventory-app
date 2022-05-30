@@ -70,7 +70,7 @@ class EditeMiantanenceScreen extends StatelessWidget {
                         return null;
                       },
                       lable: 'Maintenance Type',
-                      prefix: IconBroken.User,
+                      prefix: IconBroken.Swap,
                     ),
                     SizedBox(
                       height: 10.0,
@@ -140,7 +140,7 @@ class EditeMiantanenceScreen extends StatelessWidget {
                         return null;
                       },
                       lable: 'By',
-                      prefix: IconBroken.Call,
+                      prefix: IconBroken.User1,
                     ),
                     SizedBox(
                       height: 10.0,
@@ -156,7 +156,7 @@ class EditeMiantanenceScreen extends StatelessWidget {
                         return null;
                       },
                       lable: 'Note',
-                      prefix: IconBroken.User,
+                      prefix: IconBroken.Paper,
                     ),
                     SizedBox(
                       height: 20.0,

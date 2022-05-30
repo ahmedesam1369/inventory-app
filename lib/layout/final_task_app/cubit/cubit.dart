@@ -115,8 +115,10 @@ class FinalTaskCubit extends Cubit<TaskStates> {
   }
 
   bool IsClickable = false;
+  bool ShowSaveButton = false;
   void changedefaultformfieldClickable() {
     IsClickable = true;
+    ShowSaveButton = true;
     emit(changedefaultformfieldClickableState());
   }
 

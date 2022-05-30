@@ -56,6 +56,7 @@ class AddDeviceScreen extends StatelessWidget {
               msg: "Devive Added Successfuly", state: toastStates.SUCCESS);
 
           deviceNameController = TextEditingController();
+          // Type ==> warranty end date
           deviceTypeController = TextEditingController();
           deviceManufacutrerController = TextEditingController();
           deviceSerialNumberController = TextEditingController();
@@ -114,7 +115,7 @@ class AddDeviceScreen extends StatelessWidget {
                           validate: (value) {
                             if (value!.isEmpty) {
                               print(value == null);
-                              return 'device name must not be empty';
+                              return 'device status must not be empty';
                             }
 
                             return null;
@@ -131,7 +132,7 @@ class AddDeviceScreen extends StatelessWidget {
                           validate: (value) {
                             if (value!.isEmpty) {
                               print(value == null);
-                              return 'device name must not be empty';
+                              return 'device location must not be empty';
                             }
 
                             return null;
@@ -150,8 +151,8 @@ class AddDeviceScreen extends StatelessWidget {
                             showDatePicker(
                               context: context,
                               initialDate: DateTime.now(),
-                              firstDate:
-                                  DateTime.now().subtract(Duration(days: 1400)),
+                              firstDate: DateTime.now()
+                                  .subtract(Duration(days: 10950)),
                               lastDate: DateTime.now(),
                             ).then((value) {
                               deviceInventoryPerformedDateController.text =
@@ -161,23 +162,36 @@ class AddDeviceScreen extends StatelessWidget {
                           validate: (value) {
                             if (value!.isEmpty) {
                               print(value == null);
-                              return 'device name must not be empty';
+                              return 'inventory date must not be empty';
                             }
 
                             return null;
                           },
                           lable: 'Inventory Performed Date',
-                          prefix: IconBroken.Calendar,
+                          prefix: IconBroken.Time_Square,
                         ),
                         SizedBox(
                           height: 10.0,
                         ),
                         defultFormField(
                           controller: deviceTypeController,
-                          type: TextInputType.text,
+                          onTap: () {
+                            showDatePicker(
+                              context: context,
+                              initialDate: DateTime.now(),
+                              firstDate:
+                                  DateTime.now().subtract(Duration(days: 3650)),
+                              lastDate:
+                                  DateTime.now().add(Duration(days: 3650)),
+                            ).then((value) {
+                              deviceTypeController.text =
+                                  DateFormat.yMMMd().format(value!);
+                            });
+                          },
+                          type: TextInputType.datetime,
                           validate: (value) {},
-                          lable: 'Type',
-                          prefix: IconBroken.Swap,
+                          lable: 'warranty end date',
+                          prefix: IconBroken.Calendar,
                         ),
                         SizedBox(
                           height: 10.0,
@@ -207,7 +221,7 @@ class AddDeviceScreen extends StatelessWidget {
                           type: TextInputType.text,
                           validate: (value) {},
                           lable: 'Device Model',
-                          prefix: IconBroken.Bag,
+                          prefix: IconBroken.Activity,
                         ),
                         SizedBox(
                           height: 10.0,
@@ -238,7 +252,7 @@ class AddDeviceScreen extends StatelessWidget {
                           type: TextInputType.text,
                           validate: (value) {},
                           lable: 'Power Requirements',
-                          prefix: IconBroken.Work,
+                          prefix: IconBroken.Bookmark,
                         ),
                         SizedBox(
                           height: 10.0,

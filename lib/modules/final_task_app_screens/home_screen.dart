@@ -102,6 +102,35 @@ Widget buildUserItem(context, index) => Padding(
                     height: 5.0,
                   ),
                   Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'Serial Number -> ',
+                        style: TextStyle(
+                          color: Colors.grey,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      Flexible(
+                        child: ConstrainedBox(
+                          constraints: BoxConstraints(maxWidth: 150),
+                          child: Container(
+                            child: Text(
+                              '${FinalTaskCubit.get(context).DevicesList[index]['deviceSerialNumber']}',
+                              style: TextStyle(),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(
+                    width: 4.0,
+                  ),
+                  Row(
                     children: [
                       Text(
                         'Status -> ',
@@ -111,11 +140,18 @@ Widget buildUserItem(context, index) => Padding(
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
-                      Text(
-                        '${FinalTaskCubit.get(context).DevicesList[index]['deviceOperatingStatus']}',
-                        style: TextStyle(),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
+                      Flexible(
+                        child: ConstrainedBox(
+                          constraints: BoxConstraints(maxWidth: 150),
+                          child: Container(
+                            child: Text(
+                              '${FinalTaskCubit.get(context).DevicesList[index]['deviceOperatingStatus']}',
+                              style: TextStyle(),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ),
                       ),
                     ],
                   ),
@@ -132,11 +168,18 @@ Widget buildUserItem(context, index) => Padding(
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                       ),
-                      Text(
-                        '${FinalTaskCubit.get(context).DevicesList[index]['devicePhysicalLocation']}',
-                        style: TextStyle(),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
+                      Flexible(
+                        child: ConstrainedBox(
+                          constraints: BoxConstraints(maxWidth: 150),
+                          child: Container(
+                            child: Text(
+                              '${FinalTaskCubit.get(context).DevicesList[index]['devicePhysicalLocation']}',
+                              style: TextStyle(),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                        ),
                       ),
                     ],
                   ),
@@ -148,13 +191,18 @@ Widget buildUserItem(context, index) => Padding(
                       SizedBox(
                         width: 30.0,
                       ),
-                      Text(
-                        '${FinalTaskCubit.get(context).DevicesList[index]['deviceInventoryPerformedDate']}',
-                        style: TextStyle(
-                          color: Colors.grey,
+                      Flexible(
+                        child: ConstrainedBox(
+                          constraints: BoxConstraints(maxWidth: 150),
+                          child: Container(
+                            child: Text(
+                              '${FinalTaskCubit.get(context).DevicesList[index]['deviceInventoryPerformedDate']}',
+                              style: TextStyle(),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
                         ),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
                       ),
                     ],
                   ),
@@ -167,6 +215,7 @@ Widget buildUserItem(context, index) => Padding(
             IconButton(
                 onPressed: () {
                   FinalTaskCubit.get(context).IsClickable = false;
+                  FinalTaskCubit.get(context).ShowSaveButton = false;
                   NavigetTo(context, TaskEditeUserScraan(index: index));
                 },
                 icon: Icon(

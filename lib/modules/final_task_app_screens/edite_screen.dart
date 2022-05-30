@@ -195,6 +195,8 @@ class TaskEditeUserScraan extends StatelessWidget {
                         SizedBox(
                           height: 20.0,
                         ),
+
+                        // *************************
                         defultFormField(
                           isCleckable: cubit.IsClickable,
                           controller: deviceNameController,
@@ -220,7 +222,7 @@ class TaskEditeUserScraan extends StatelessWidget {
                           validate: (value) {
                             if (value!.isEmpty) {
                               print(value == null);
-                              return 'device name must not be empty';
+                              return 'device status must not be empty';
                             }
 
                             return null;
@@ -238,7 +240,7 @@ class TaskEditeUserScraan extends StatelessWidget {
                           validate: (value) {
                             if (value!.isEmpty) {
                               print(value == null);
-                              return 'device name must not be empty';
+                              return 'device location must not be empty';
                             }
 
                             return null;
@@ -249,6 +251,7 @@ class TaskEditeUserScraan extends StatelessWidget {
                         SizedBox(
                           height: 10.0,
                         ),
+
                         defultFormField(
                           isCleckable: cubit.IsClickable,
                           controller: deviceInventoryPerformedDateController,
@@ -257,8 +260,8 @@ class TaskEditeUserScraan extends StatelessWidget {
                             showDatePicker(
                               context: context,
                               initialDate: DateTime.now(),
-                              firstDate:
-                                  DateTime.now().subtract(Duration(days: 1400)),
+                              firstDate: DateTime.now()
+                                  .subtract(Duration(days: 10950)),
                               lastDate: DateTime.now(),
                             ).then((value) {
                               deviceInventoryPerformedDateController.text =
@@ -268,13 +271,13 @@ class TaskEditeUserScraan extends StatelessWidget {
                           validate: (value) {
                             if (value!.isEmpty) {
                               print(value == null);
-                              return 'device name must not be empty';
+                              return 'inventory date must not be empty';
                             }
 
                             return null;
                           },
                           lable: 'Inventory Performed Date',
-                          prefix: IconBroken.Calendar,
+                          prefix: IconBroken.Time_Square,
                         ),
                         SizedBox(
                           height: 10.0,
@@ -282,10 +285,23 @@ class TaskEditeUserScraan extends StatelessWidget {
                         defultFormField(
                           isCleckable: cubit.IsClickable,
                           controller: deviceTypeController,
-                          type: TextInputType.text,
+                          onTap: () {
+                            showDatePicker(
+                              context: context,
+                              initialDate: DateTime.now(),
+                              firstDate:
+                                  DateTime.now().subtract(Duration(days: 3650)),
+                              lastDate:
+                                  DateTime.now().add(Duration(days: 3650)),
+                            ).then((value) {
+                              deviceTypeController.text =
+                                  DateFormat.yMMMd().format(value!);
+                            });
+                          },
+                          type: TextInputType.datetime,
                           validate: (value) {},
-                          lable: 'Type',
-                          prefix: IconBroken.Swap,
+                          lable: 'warranty end date',
+                          prefix: IconBroken.Calendar,
                         ),
                         SizedBox(
                           height: 10.0,
@@ -318,7 +334,7 @@ class TaskEditeUserScraan extends StatelessWidget {
                           type: TextInputType.text,
                           validate: (value) {},
                           lable: 'Device Model',
-                          prefix: IconBroken.Bag,
+                          prefix: IconBroken.Activity,
                         ),
                         SizedBox(
                           height: 10.0,
@@ -334,6 +350,7 @@ class TaskEditeUserScraan extends StatelessWidget {
                         SizedBox(
                           height: 10.0,
                         ),
+
                         defultFormField(
                           isCleckable: cubit.IsClickable,
                           controller: deviceStockQuantitiesController,
@@ -351,7 +368,7 @@ class TaskEditeUserScraan extends StatelessWidget {
                           type: TextInputType.text,
                           validate: (value) {},
                           lable: 'Power Requirements',
-                          prefix: IconBroken.Work,
+                          prefix: IconBroken.Bookmark,
                         ),
                         SizedBox(
                           height: 10.0,
@@ -375,6 +392,7 @@ class TaskEditeUserScraan extends StatelessWidget {
                           lable: 'Purchase Supplier',
                           prefix: IconBroken.Tick_Square,
                         ),
+
                         SizedBox(
                           height: 10.0,
                         ),
@@ -435,56 +453,68 @@ class TaskEditeUserScraan extends StatelessWidget {
                         SizedBox(
                           height: 20.0,
                         ),
-                        defulteButton(
-                            isUpperCase: false,
-                            width: 100.0,
-                            function: () {
-                              if (formKey.currentState!.validate()) {
-                                devicemodelAfterEdite.deviceDepoartment =
-                                    deviceDepoartmentController.text;
-                                devicemodelAfterEdite
-                                        .deviceInventoryPerformedDate =
-                                    deviceInventoryPerformedDateController.text;
-                                devicemodelAfterEdite
-                                        .deviceMaintanenceProvider =
-                                    deviceMaintanenceProviderController.text;
-                                devicemodelAfterEdite.deviceManufacutrer =
-                                    deviceManufacutrerController.text;
-                                devicemodelAfterEdite.deviceModel =
-                                    deviceModelController.text;
-                                devicemodelAfterEdite.deviceName =
-                                    deviceNameController.text;
-                                devicemodelAfterEdite.deviceOperatingStatus =
-                                    deviceOperatingStatusController.text;
-                                devicemodelAfterEdite.devicePhysicalLocation =
-                                    devicePhysicalLocationController.text;
-                                devicemodelAfterEdite
-                                        .devicePreventiveMaintanencedate =
-                                    devicePreventiveMaintanencedateController
-                                        .text;
-                                devicemodelAfterEdite.devicePurchaseDate =
-                                    devicePurchaseDateController.text;
-                                devicemodelAfterEdite.devicePurchaseSupplier =
-                                    devicePurchaseSupplierController.text;
-                                devicemodelAfterEdite.deviceSerialNumber =
-                                    deviceSerialNumberController.text;
-                                devicemodelAfterEdite
-                                        .deviceServiceRequirements =
-                                    deviceServiceRequirementsController.text;
-                                devicemodelAfterEdite.deviceStockQuantities =
-                                    deviceStockQuantitiesController.text;
-                                devicemodelAfterEdite.deviceType =
-                                    deviceTypeController.text;
-                                devicemodelAfterEdite.devicenPowerRequirements =
-                                    devicenPowerRequirementsController.text;
+                        cubit.ShowSaveButton
+                            ? defulteButton(
+                                isUpperCase: false,
+                                width: 100.0,
+                                function: () {
+                                  if (formKey.currentState!.validate()) {
+                                    devicemodelAfterEdite.deviceDepoartment =
+                                        deviceDepoartmentController.text;
+                                    devicemodelAfterEdite
+                                            .deviceInventoryPerformedDate =
+                                        deviceInventoryPerformedDateController
+                                            .text;
+                                    devicemodelAfterEdite
+                                            .deviceMaintanenceProvider =
+                                        deviceMaintanenceProviderController
+                                            .text;
+                                    devicemodelAfterEdite.deviceManufacutrer =
+                                        deviceManufacutrerController.text;
+                                    devicemodelAfterEdite.deviceModel =
+                                        deviceModelController.text;
+                                    devicemodelAfterEdite.deviceName =
+                                        deviceNameController.text;
+                                    devicemodelAfterEdite
+                                            .deviceOperatingStatus =
+                                        deviceOperatingStatusController.text;
+                                    devicemodelAfterEdite
+                                            .devicePhysicalLocation =
+                                        devicePhysicalLocationController.text;
+                                    devicemodelAfterEdite
+                                            .devicePreventiveMaintanencedate =
+                                        devicePreventiveMaintanencedateController
+                                            .text;
+                                    devicemodelAfterEdite.devicePurchaseDate =
+                                        devicePurchaseDateController.text;
+                                    devicemodelAfterEdite
+                                            .devicePurchaseSupplier =
+                                        devicePurchaseSupplierController.text;
+                                    devicemodelAfterEdite.deviceSerialNumber =
+                                        deviceSerialNumberController.text;
+                                    devicemodelAfterEdite
+                                            .deviceServiceRequirements =
+                                        deviceServiceRequirementsController
+                                            .text;
+                                    devicemodelAfterEdite
+                                            .deviceStockQuantities =
+                                        deviceStockQuantitiesController.text;
+                                    devicemodelAfterEdite.deviceType =
+                                        deviceTypeController.text;
+                                    devicemodelAfterEdite
+                                            .devicenPowerRequirements =
+                                        devicenPowerRequirementsController.text;
 
-                                FinalTaskCubit.get(context).UpdateUser(
-                                    devicemodelAfterEdite,
-                                    FinalTaskCubit.get(context)
-                                        .DevicesList[index]['id']);
-                              }
-                            },
-                            text: 'Save'),
+                                    FinalTaskCubit.get(context).UpdateUser(
+                                        devicemodelAfterEdite,
+                                        FinalTaskCubit.get(context)
+                                            .DevicesList[index]['id']);
+                                  }
+                                },
+                                text: 'Save')
+                            : SizedBox(
+                                height: 10,
+                              ),
                         SizedBox(
                           height: 25.0,
                         ),
